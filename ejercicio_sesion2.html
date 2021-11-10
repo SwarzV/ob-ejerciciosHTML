@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <form id="datos" action="recibedatos.html" method="post"
+    style="border: 1px #000 solid; margin: 30px; padding: 30px; background-color: #f2f2f2;">
+        <h2>Formulario de datos</h2>
+        <fieldset>
+            <legend>Introduce tus datos de contacto:</legend>
+            
+            <div>
+                <input id="datos_nombre" required type="text" value="" placeholder="Nombre">
+            </div>
+            <br>
+            <div>
+                <input id="datos_apellidos" required type="text" value="" placeholder="Apellidos">
+            </div>
+            <br>
+            <div>
+                <input id="datos_correo" required type="email" value="" placeholder="E-mail">
+            </div>
+            <br>
+            <div>
+                <input id="datos_telefono" type="tel" value="" placeholder="Teléfono">
+            </div>
+            <br>
+            <div> 
+                <input id="datos_direccion" type="text" value="" placeholder="Dirección">
+            </div>
+            <br>
+            <div>
+                <input id="datos_boton" type="submit" value="Enviar">
+            </div>
+            <div>
+                <input type="hidden" value="secreto">
+            </div>
+
+        </fieldset>
+    </form>
+    
+    <table class="default" border="1">
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <td rowspan="2">uno</td>
+            <td>dos</td>
+            <td>tres</td>
+            <td>cuatro</td>
+        </tr>
+        <tr>
+            <td>carlos</td>
+            <td>maria</td>
+            <td>pedro</td>
+        </tr>
+        <tr>
+            <td>madrid</td>
+            <td colspan="2">barcelona</td>
+            <td>sevilla</td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+
+</html>
